@@ -1,0 +1,22 @@
+.into__title {
+  margin: 92px 0 0;
+
+  font-weight: 900;
+  font-size: 54px;
+  line-height: 1.1;
+}
+
+@media screen and (max-width: 768px) {
+  .into__title {
+    margin: 88px 0 0;
+
+    font-size: max(calc(100vw / 768 * 54), 32px);
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .into__title {
+    margin: 64px 0 0;
+    font-size: calc(100vw / 320 * 32);
+  }
+}

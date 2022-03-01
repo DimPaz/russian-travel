@@ -4,7 +4,7 @@
 
   background-color: #2a2c2f;
 
-  font-family: 'Inter', 'Arial', sans-serif;
+  font-family: "Inter", "Arial", sans-serif;
   font-size: 18px;
   line-height: 1.63;
   color: #fff;
@@ -20,24 +20,4 @@
 
   /* Рендеринг */
   text-rendering: optimizeLegibility;
-}
-
-
-/* Потом удалить */
-@media screen and (max-width: 1024px) {
-  .page {
-    background-color: #2f75df;
-  }
-}
-
-@media screen and (max-width: 768px) {
-  .page {
-    background-color: #c0b957;
-  }
-}
-
-@media screen and (max-width: 320px) {
-  .page {
-    background-color: #db2911;
-  }
 }

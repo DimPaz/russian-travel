@@ -1,5 +1,5 @@
 .into {
-  width: calc(100vw - 96px);
+  width: calc(100vw - 96px); 
   max-width: 984px;
   margin: 0 auto;
   align-self: flex-start;

@@ -9,12 +9,12 @@
   </head>
   <body>
     <div class="page">
-      <header class="header">
+      <header class="header none">
         <a class="header__logo link" href="#"></a>
-        <nav class="header__lang-links">
+        <div class="header__lang-links">
           <a href="#" class="header__lang-link header__lang-link_ru link">Ru</a>
           <a href="#" class="header__lang-link link">En</a>
-        </nav>
+        </div>
       </header>
       <main class="content">
         <section class="lead">
@@ -29,7 +29,7 @@
           />
           <p class="lead__caption">Ваша полка — верхняя</p>
         </section>
-        <section class="into">
+        <section class="into none">
           <h2 class="into__title">Чего мы там не видели?</h2>
           <p class="into__text">
             По опросам ВЦИОМ, 95% россиян мечтают куда-нибудь поехать, но только
@@ -51,7 +51,7 @@
             <li>Аэропортов 241</li>
           </ul>
         </section>
-        <section class="photo-grid">
+        <section class="photo-grid none">
           <img
             class="photo-grid__image"
             src="./images/photo-grid/__item_1.jpg"
@@ -114,8 +114,8 @@
           />
         </section>
 
-        <section class="places">
-          <div class="place">
+        <section class="places none">
+          <article class="place">
             <h2 class="place__title">Куршская коса</h2>
             <ul class="place__website">
               <li>
@@ -151,9 +151,9 @@
                 прохладного моря.
               </li>
             </ul>
-          </div>
+          </article>
 
-          <div class="place">
+          <article class="place">
             <h2 class="place__title">Кольский</h2>
             <ul class="place__website">
               <li>
@@ -189,9 +189,9 @@
                 с билетом в Мурманск.
               </li>
             </ul>
-          </div>
+          </article>
 
-          <div class="place">
+          <article class="place">
             <h2 class="place__title">Алтай</h2>
             <ul class="place__website">
               <li>
@@ -227,9 +227,9 @@
                 края.
               </li>
             </ul>
-          </div>
+          </article>
 
-          <div class="place">
+          <article class="place">
             <h2 class="place__title">Зимний Байкал</h2>
             <ul class="place__website">
               <li>
@@ -264,9 +264,9 @@
                 197.011 км/ч.
               </li>
             </ul>
-          </div>
+          </article>
 
-          <div class="place">
+          <article class="place">
             <h2 class="place__title">Карелия</h2>
             <ul class="place__website">
               <li>
@@ -299,7 +299,7 @@
                 помечены медвежьими когтями. Чтобы все знали, кто тут хозяин.
               </li>
             </ul>
-          </div>
+          </article>
         </section>
         <section class="cover">
           <a
@@ -314,7 +314,8 @@
             </p>
           </a>
         </section>
-        <footer class="footer">
+
+        <footer class="footer none">
           <nav class="footer__links">
             <a
               href="https://yandex.ru/maps"
@@ -347,7 +348,7 @@
               >Путешествия</a
             >
           </nav>
-          <div class="footer__copyright">© 2022. Пазухин Дмитрий</div>
+          <p class="footer__copyright">© 2022. Пазухин Дмитрий</p>
         </footer>
       </main>
     </div>

@@ -24,7 +24,7 @@
 @media screen and (max-width: 630px) {
   .place__image {
     max-width: 630px;
-    width: 100vw;
+    width: 100%;
     justify-self: center;
     box-sizing: border-box;
   }
